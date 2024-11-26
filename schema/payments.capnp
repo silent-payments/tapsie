@@ -12,6 +12,7 @@ struct Payment {
   receiverPersonId @4 :UInt64;
   created @5 :Date;
   updated @6 :Date;
+  blockHeight @7 :UInt64;
 }
 
 struct Date {
